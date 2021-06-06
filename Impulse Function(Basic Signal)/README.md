@@ -12,5 +12,5 @@
 ![anyFunctionIntoDelta](anyFunctionIntoDelta.jpg "any Function Into Delta")
 
 ## 4*delta(n) + 3*delta(n-2)
-![Quick Test](Quick Test.jpg "4*delta(n) + 3*delta(n-2)")
+![QuickTest](QuickTest.jpg "4*delta(n) + 3*delta(n-2)")
 
