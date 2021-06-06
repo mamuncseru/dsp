@@ -57,3 +57,27 @@ stem(n, f.*output)
 hold on
 axis([-12, 12, -4, 4]);
 title("f(n) * delta(n-3) = f(3)")
+
+
+%% Quick Test
+tiledlayout(3, 1)
+nexttile
+n = -10 :1: 10;
+output1 = 4*impulse_fun(n);
+stem(n, output1)
+hold on
+axis([-12, 12, -9, 9])
+title('4*delta(u)');
+
+nexttile
+n = -10 :1: 10;
+output2 = 3*shifted_impulse_fun(n, 2) ;
+stem(n, output2)
+hold on
+axis([-12, 12, -9, 9])
+title('3*delta(n-2)');
+nexttile
+stem(n, output1+output2)
+hold on
+axis([-12, 12, -9, 9])
+title('4*delta(n) + 3*delta(n-2)')

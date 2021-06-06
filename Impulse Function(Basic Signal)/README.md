@@ -11,5 +11,6 @@
 ## f(t) * delta(n-3) = f(3)
 ![anyFunctionIntoDelta](anyFunctionIntoDelta.jpg "any Function Into Delta")
 
-
+## 4*delta(n) + 3*delta(n-2)
+![Quick Test](Quick Test.jpg "4*delta(n) + 3*delta(n-2)")
 
